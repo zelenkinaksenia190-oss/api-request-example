@@ -1,0 +1,27 @@
+__Метод:__ PATCH
+
+__URL:__ /api/v1/change-password
+
+__Пример запроса на сервер:__ https://{домен}/api/v1/change-password
+
+__Request Body:__
+
+```py 
+{
+    "oldPassword": "string",
+    "newPassword": "string",
+    "confirmPasssword": "string"
+    "showPassword": false
+}
+```
+
+__Response Body (code and status):__
+200 OK
+{
+    "massege": "Ваш пароль был успешно изменен"
+}
+__Ошибки:__
+400
+401
+403
+500
