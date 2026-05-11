@@ -7,6 +7,7 @@ __Пример запроса на сервер:__ https://{домен}/api/v1/p
 
 __Response Body (code and status):__
 200 OK
+```py
 {
     "basicDetails": {
         "fullName": "string",
@@ -22,6 +23,7 @@ __Response Body (code and status):__
         "height": 175.5
     }
 }
+```
 
 __Ошибки:__
 400
